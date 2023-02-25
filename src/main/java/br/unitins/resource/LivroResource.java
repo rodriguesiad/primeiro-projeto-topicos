@@ -52,7 +52,6 @@ public class LivroResource {
         entity.setIsbn(livro.getIsbn());
         entity.setDataPublicacao(livro.getDataPublicacao());
         entity.setGenero(livro.getGenero());
-
         return entity;
     }
 
